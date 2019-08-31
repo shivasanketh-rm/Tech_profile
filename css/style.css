@@ -144,6 +144,19 @@ a:active {
     color: #fff;
 }
 
+.btn-blue {
+    background-color: #2196f3;
+    color: #fff;
+    border-color: #2196f3;
+}
+.btn-blue:hover,
+.btn-blue:focus {
+
+    cursor: pointer;
+    border-color: #2196f3;
+    background-color: #fff;
+    color: #2196f3;
+}
 .btn-white:hover,
 .btn-white:focus {
     background-color: transparent;
