@@ -211,7 +211,7 @@ a:active {
                       ABOUT
 ====================================================*/
   #about {
-      background-image: url(../img/background.jpg); 
+      background-image: url(../img/bg-about_flipped2.png); 
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
@@ -239,7 +239,7 @@ a:active {
 ======================================================*/
 
 #portfolio{
-    padding:100px 0;
+    padding:100px 0; 
 } 
 
 .port-head-cont{
@@ -400,7 +400,7 @@ a:active {
 ======================================================*/
 
 #skills {
-    background-image: url("../img/bg-stats.jpg");
+    background-image: url("../img/bg-portfolio.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -444,20 +444,20 @@ a:active {
 }
 
 /*====================================================
-                      AWARD
+                      Timeline
 ======================================================*/
  
-#awards {
+#timeline {
     background: #f0f0f0;
 }
 
-#award-box {
+#timeline-box {
     overflow: hidden;
     position: relative;
     padding: 60px 0;
 }
 
-#award-box:before {
+#timeline-box:before {
     content: "";
     width: 1px;
     height: 100%;
@@ -467,21 +467,21 @@ a:active {
     left: 50%;
 }
 
-#award-box .award {
+#timeline-box .timeline {
     width: 50%;
     clear: both;
     position: relative;
 }
 
-#award-box .award:before,
-#award-box .award:after {
+#timeline-box .timeline:before,
+#timeline-box .timeline:after {
     content: "";
     display: block;
     clear: both;
 }
 
-#award-box .award:first-child:before,
-#award-box .award:last-child:before {
+#timeline-box .timeline:first-child:before,
+#timeline-box .timeline:last-child:before {
     content: "";
     width: 11px;
     height: 11px;
@@ -495,17 +495,17 @@ a:active {
     transform: rotate(45deg);
 }
 
-#award-box .award:last-child:before {
+#timeline-box .timeline:last-child:before {
     top: auto;
     bottom: -54px;
 }
 
-#award-box .award:last-child:nth-child(even):before {
+#timeline-box .timeline:last-child:nth-child(even):before {
     right: auto;
     left: -11px;
 }
 
-#award-box .award-icon {
+#timeline-box .timeline-icon {
     width: 24px;
     height: 24px;
     background: #fff;
@@ -517,7 +517,7 @@ a:active {
     transform: rotate(45deg);
 }
 
-#award-box .award-icon:before {
+#timeline-box .timeline-icon:before {
     content: "";
     display: block;
     width: 15px;
@@ -530,11 +530,11 @@ a:active {
     transition: background-color 0.2s ease 0s;
 }
 
-#award-box .award:hover .award-icon:before {
+#timeline-box .timeline:hover .timeline-icon:before {
     background: #39b3ff;
 }
 
-#award-box .award-content {
+#timeline-box .timeline-content {
     width: 85%;
     padding: 18px 30px;
     background: #fff;
@@ -545,11 +545,11 @@ a:active {
     transition: all 0.3s ease 0s;
 }
 
-#award-box .award:hover .award-content {
+#timeline-box .timeline:hover .timeline-content {
     border: 1px solid #cfcdcd;
 }
 
-#award-box .award-content:before {
+#timeline-box .timeline-content:before {
     content: "";
     display: block;
     width: 14px;
@@ -563,12 +563,12 @@ a:active {
     transition: all 0.2s ease 0s;
 }
 
-#award-box .award:hover .award-content:before {
+#timeline-box .timeline:hover .timeline-content:before {
     background: #39b3ff;
     border-color: #39b3ff;
 }
 
-#award-box .award-content:after {
+#timeline-box .timeline-content:after {
     content: "";
     width: 11%;
     height: 1px;
@@ -578,7 +578,7 @@ a:active {
     right: -14%;
 }
 
-#award-box .date {
+#timeline-box .date {
     display: block;
     font-size: 15px;
     font-weight: 600;
@@ -587,76 +587,76 @@ a:active {
     transition: all 0.3s ease 0s;
 }
 
-#award-box .award:hover .date {
+#timeline-box .timeline:hover .date {
     color: #444;
 }
 
-#award-box .title {
+#timeline-box .title {
     font-size: 18px;
     color: #444;
     margin-top: 0;
     transition: all 0.3s ease 0s;
 }
 
-#award-box .award:hover .title {
+#timeline-box .timeline:hover .title {
     color: #39b3ff;
 }
 
-#award-box .description {
+#timeline-box .description {
     font-size: 16px;
     color: #777;
     line-height: 28px;
     margin-top: 8px;
 }
 
-#award-box .award:nth-child(2n),
-#award-box .award:nth-child(2n) .award-content {
+#timeline-box .timeline:nth-child(2n),
+#timeline-box .timeline:nth-child(2n) .timeline-content {
     float: right;
     text-align: left;
 }
 
-#award-box .award:nth-child(2n) .award-icon {
+#timeline-box .timeline:nth-child(2n) .timeline-icon {
     right: 0;
     left: -12px;
 }
 
-#award-box .award:nth-child(2n) .award-content:before {
+#timeline-box .timeline:nth-child(2n) .timeline-content:before {
     left: -7.3px;
 }
 
-#award-box .award:nth-child(2n) .award-content:after {
+#timeline-box .timeline:nth-child(2n) .timeline-content:after {
     left: -14%;
 }
  
 @media only screen and (max-width: 767px) {
-    #award-box {
+    #timeline-box {
         padding-left: 20px;
     }
-    #award-box:before {
+    #timeline-box:before {
         left: 20px;
     }
-    #award-box .award {
+    #timeline-box .timeline {
         width: 100%;
     }
-    #award-box .award,
-    #award-box .award-content {
+    #timeline-box .timeline,
+    #timeline-box .timeline-content {
         float: right;
         padding:5px;
         text-align: left;
     }
-    #award-box .award:first-child:before,
-    #award-box .award:last-child:nth-child(odd):before {
+    #timeline-box .timeline:first-child:before,
+    #timeline-box .timeline:last-child:nth-child(odd):before {
         right: auto;
         left: -11px;
     }
-    #award-box .award-icon {
+    #timeline-box .timeline-icon {
         right: 0;
         left: -12px;
     }
-    #award-box .award-content:before {
+    #timeline-box .timeline-content:before {
         left: -7.3px;
     }
-    #award-box .award-content:after {
+    #timeline-box .timeline-content:after {
         left: -14%;
     }
 }
