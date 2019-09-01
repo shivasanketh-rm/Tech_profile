@@ -126,6 +126,17 @@ a:active {
 /*==================================================
                   BUTTON (Generic)
 ====================================================*/
+.ctc-general {
+    background-color: transparent;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 0px;
+    font-size: 12px;
+    padding: 2px 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: 22px;
+}
 
 .btn-general {
     background-color: transparent;
@@ -221,16 +232,16 @@ a:active {
   }
 
 /*==================================================
-                      ABOUT
+                      HOME
 ====================================================*/
-  #about {
+  #home {
       background-image: url(../img/bg-about_flipped2.png); 
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat;
   }
 
-  #about h1 {
+  #home h1 {
     /*font-size: 100%;*/
   }
 
