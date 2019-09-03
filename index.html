@@ -26,10 +26,16 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/21e162f8e1.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    
+    <script src="mystyle.js"></script>
+
 </head>
 
 <body id="page-top">
-    
+    <div class="se-pre-con"></div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         
       <a class="navbar-brand js-scroll-trigger" href="#page-top"> 
@@ -135,9 +141,9 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 <div class="mb-5 heading-border"></div>
               </div>
               <div class="resume-item col-md-6 col-sm-12 " > 
-                <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
+                <div class="card mx-0 p-4 mb-5" style="border-color: #2196f3; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                   <div class=" resume-content mr-auto">
-                      <h3 class="mb-2"><i class="fas fa-stream mr-3 text-info"></i> Design Engineer,<small> <a href = "https://tataelxsi.com/ip-solution/automotive/overview.html" target="_blank" >Automotive business unit</a> -<a href = "https://tataelxsi.com" target="_blank"> TATA ELXSI LTD </a></small></h3>
+                      <h3 class="mb-2"><i class="fas fa-stream mr-3 text-info" style="color: 2196f3; color"></i> Design Engineer,<small> <a href = "https://tataelxsi.com/ip-solution/automotive/overview.html" target="_blank" >Automotive business unit</a> -<a href = "https://tataelxsi.com" target="_blank"> TATA ELXSI LTD </a></small></h3>
                       
                       <p style="font-size: 120%;" >Two years of experience working on software development in the field of Machine Learning and Computer Vision.</p>
                       <p style="font-size: 110%; text-indent: 2em" ><b> &#9658;  Autonomous Vehicle Development</b></p>
@@ -318,7 +324,42 @@ License URL: https://creativecommons.org/licenses/by/4.0/
       <section class=" d-flex flex-column" id="skills">
          <div class="p-lg-5 p-3 skill-cover">
           <h2 class="text-center text-white">Skills</h2>   
-          <h3 class="text-center text-white">Coding Skills</h3>
+             
+        <h4 class="text-center text-white">Areas of Interest/Knowledge</h4>
+          <div class="row text-center my-auto "> 
+              <div class="col-md-2 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fas fa-braille fa-3x"></i>
+                      <h2>Machine Learning</h2>
+                  </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fas fa-brain fa-3x"></i>
+                      <h2>Deep Learning</h2>
+                  </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fas fa-eye fa-3x"></i>
+                      <h2>Computer Vision</h2>
+                  </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fas fa-align-justify fa-3x"></i>
+                      <h2>Data Science</h2>
+                  </div>
+              </div>
+              
+              <div class="col-md-2 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fas fa-code fa-3x"></i>
+                      <h2>Web Development</h2>
+                  </div>
+              </div>
+             </div>
+          <h4 class="text-center text-white">Coding</h4>
           <div class="row text-center my-auto "> 
               <div class="col-md-2 col-sm-6">
                   <div class="skill-item">
@@ -344,18 +385,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                       <h2>Java</h2>
                   </div>
               </div>
-              <div class="col-md-2 col-sm-6">
-                  <div class="skill-item">
-                      <i class="fab fa-python fa-3x"></i>
-                      <h2>HTML5</h2>
-                  </div>
-              </div>
-              <div class="col-md-2 col-sm-6">
-                  <div class="skill-item">
-                      <i class="fab fa-css3 fa-3x"></i>
-                      <h2>CSS3</h2>
-                  </div>
-              </div>
+              
               <div class="col-md-2 col-sm-6">
                   <div class="skill-item">
                       <i class="fas fa-table fa-3x"></i>
@@ -367,17 +397,37 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                       <i class="fas fa-scroll fa-3x"></i>
                       <h2>Visual Basics</h2>
                   </div>
+              </div>                
+          </div>
+             
+             <h4 class="text-center text-white">Web Development</h4>
+          <div class="row text-center my-auto "> 
+             <div class="col-md-2 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fab fa-python fa-3x"></i>
+                      <h2>HTML5</h2>
+                  </div>
               </div>
               <div class="col-md-2 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fab fa-css3 fa-3x"></i>
+                      <h2>CSS3</h2>
+                  </div>
+              </div>
+                <div class="col-md-2 col-sm-6">
                   <div class="skill-item">
                       <i class="fa fa-globe fa-3x"></i>
                       <h2>PHP</h2>
                   </div>
               </div>
-                            
-          </div>
-             <h3 class="text-center text-white">Coding Skills</h3>
+              <div class="col-md-2 col-sm-6">
+                  <div class="skill-item">
+                      <i class="fab fa-js fa-3x"></i>
+                      <h2>Java Script</h2>
+                  </div>
+              </div>
          </div> 
+          </div>
       </section>
 
     <!--====================================================
